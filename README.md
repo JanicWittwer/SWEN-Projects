@@ -20,7 +20,9 @@ Der erste Spieler würfelt mit allen 6 Würfeln. Je nach Wurf gibt es verschiede
 
 Punktzahlen
 Jede "1" = 100 Punkte
+
 Jede "5" = 50 Punkte
+
 Dreierkombi mit "1" = 1000 Punkte   (Würfelwurf enthält die Würfel 1,1,1)
 Dreierkombi mit "2" = 200 Punkte    (Würfelwurf enthält die Würfel 2,2,2)
 Dreierkombi mit "3" = 300 Punkte    (Würfelwurf enthält die Würfel 3,3,3)
