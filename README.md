@@ -31,6 +31,8 @@ Treppe aus 3 Paaren = 750 Punkte    (Bsp. Würfel 1,1 , 2,2, und 5,5)
 Strasse             = 1500 Punkte   (Würfelwurf mit 1,2,3,4,5,6)
 
 
-Sofern ich eine 1 oder 5 habe, kann ich die entsprechenden Würfel rausnehmen und mit den übrig bleibenden Würfeln weiterwürfeln. Bsp. Ich würfle im ersten Wurf (1, 5, 4, 6, 6, 2), daraus kann ich die 1 rausnehmen. Gibt 100 Punkte. Entweder kann ich diese Punkte nun aufschreiben oder weiterspielen mit den restlichen 5 Würfeln. Ich würfle weiter und werfe im zweiten Wurf (4, 2, 6, 1, 1). Davon nehme ich die beiden 1 raus und habe noch 3 Würfel zur Verfügung. Ich habe wieder die Entscheidung ob ich nun die 300 Punkte aufschreiben möchte oder mit den anderen 3 Würfeln noch weiterwürfeln möchte. Ich schreibe auf und habe nun 300 Punkte gesammelt und der nächste Spieler ist an der Reihe. Es gibt noch einige zusätzliche Regeln, welche man auch noch implementieren könnte.
+Sofern ich eine 1 oder 5 habe, kann ich die entsprechenden Würfel rausnehmen und mit den übrig bleibenden Würfeln weiterwürfeln. Bsp. Ich würfle im ersten Wurf (1, 5, 4, 6, 6, 2), daraus kann ich die 1 rausnehmen. Gibt 100 Punkte. Entweder kann ich diese Punkte nun aufschreiben oder weiterspielen mit den restlichen 5 Würfeln. Ich würfle weiter und werfe im zweiten Wurf (4, 2, 6, 1, 1). 
+
+Davon nehme ich die beiden 1 raus und habe noch 3 Würfel zur Verfügung. Ich habe wieder die Entscheidung ob ich nun die 300 Punkte aufschreiben möchte oder mit den anderen 3 Würfeln noch weiterwürfeln möchte. Ich schreibe auf und habe nun 300 Punkte gesammelt und der nächste Spieler ist an der Reihe.
 
 
