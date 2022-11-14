@@ -20,8 +20,8 @@ Eine Runde von max. 6 Spielern muss mit dem Werfen von Würfeln möglichst schne
 Der erste Spieler würfelt mit allen 6 Würfeln. Je nach Wurf gibt es verschiedene Anzahl von Punkte, zudem darf nur mit bestimmten Würfeln auch «weitergewürfelt» werden.
 
 Punktzahlen
-Jede "1" = 100 Punkte\n
-Jede "5" = 50 Punkte\n
+Jede "1" = 100 Punkte \n
+Jede "5" = 50 Punkte \n
 Dreierkombi mit "1" = 1000 Punkte   (Würfelwurf enthält die Würfel 1,1,1)\n
 Dreierkombi mit "2" = 200 Punkte    (Würfelwurf enthält die Würfel 2,2,2)\n
 Dreierkombi mit "3" = 300 Punkte    (Würfelwurf enthält die Würfel 3,3,3)\n
