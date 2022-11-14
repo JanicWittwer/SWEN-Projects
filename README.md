@@ -1,6 +1,6 @@
-# SWEN-Projects
+## SWEN-Projects
 
-#Beschreibung der Aufgabenstellung
+# Beschreibung der Aufgabenstellung
 
 
 Im Kollegenkreis haben wir ein Würfelspiel, welches wir gerne spielen. Gerne möchten wir dieses Würfelspiel nun in Python programmieren
@@ -38,3 +38,6 @@ Sofern ich eine 1 oder 5 habe, kann ich die entsprechenden Würfel rausnehmen un
 Davon nehme ich die beiden 1 raus und habe noch 3 Würfel zur Verfügung. Ich habe wieder die Entscheidung ob ich nun die 300 Punkte aufschreiben möchte oder mit den anderen 3 Würfeln noch weiterwürfeln möchte. Ich schreibe auf und habe nun 300 Punkte gesammelt und der nächste Spieler ist an der Reihe.
 
 
+
+
+Ihr könnt euch also in der Projektarbeit eine Reihe von Tasks überlegen, die ihr für die Umsetzung braucht und diese immer weiter in kleinere Aufgaben zerteilen. Im ersten Vorschlag können das so Dinge sein wie «Benutzer kann einen ‘Zug’ eingeben», «Bei Spielbeginn kann die Anzahl Mitspieler angegeben werden», «Es wird ein Punktetotal aufgrund der Würfelwahl berechnet» usw. Das UI könnt ihr dann zum Beispiel erstmal über input() lösen und wenn ihr schnell voran kommt immer noch überlegen, wie ihr das Ganze als GUI umsetzt.
