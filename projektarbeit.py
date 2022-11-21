@@ -35,31 +35,30 @@ while Playing:
 ## Anzahl Spieler und Spielernamen
 ### Wir möchten nun eine Funktion einbauen, wo am Anfang eine Anzahl Spieler gewählt werden kann und auch Spielernamen eingegeben werden können.
 
-def name():
-    eingabe = input("Gebe deinen Namen an: ")
-    return eingabe
 
 print("Herzlich willkommen zu Fraggles - Das würfligste Würfelspiel für Gross und Klein. Bei diesem Spiel gehen Freundschaften zu Bruch.")
 
-active = True
+def spieler_eingabe():
+    while True:
+        anzahl_spieler = input("Bitte Anzahl Spieler eingeben: ")    
+        if anzahl_spieler >= "2" and anzahl_spieler <= "6" :
+            return int(anzahl_spieler)
+        else:
+            print("Die Anzahl Spieler muss zwischen 2 und 6 liegen")
 
-while active: 
-    s1 = 0
-    s2 = 0
-    s3 = 0
-    s4 = 0
-    s5 = 0
-    s6 = 0
-    z = 0 #anzahl Rundne
-    print("Spieler 1 gib deinen Namen an: ")
-    spieler1 = name()
-    print("Spieler 2 gib deinen Namen an: ")
-    spieler2 =  name()
-    print("Spieler 3 gib deinen Namen an: ")
-    spieler3 = name()
-    print("Spieler 4 gib deinen Namen an: ")
-    spieler4 =  name()
-    print("Spieler 5 gib deinen Namen an: ")
-    spieler5 = name()
-    print("Spieler 6 gib deinen Namen an: ")
-    spieler6 =  name()      
+anzahl_spieler = spieler_eingabe()
+print(anzahl_spieler)
+
+
+class Spieler:
+    def __init__(self, name):
+        self.name = name
+        self.punktestand_temp = 0
+        self.punktestand_total = 0
+
+spieler = []
+
+for i in range(anzahl_spieler):
+    neuer_spieler = Spieler(input(f"Bitte gib den Namen von Spieler {i+1} ein: "))
+    spieler.append(neuer_spieler)
+
