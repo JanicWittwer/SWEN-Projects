@@ -37,4 +37,29 @@ while Playing:
 
 def name():
     eingabe = input("Gebe deinen Namen an: ")
-    return eingabe        
+    return eingabe
+
+print("Herzlich willkommen zu Fraggles - Das würfligste Würfelspiel für Gross und Klein. Bei diesem Spiel gehen Freundschaften zu Bruch.")
+
+active = True
+
+while active: 
+    s1 = 0
+    s2 = 0
+    s3 = 0
+    s4 = 0
+    s5 = 0
+    s6 = 0
+    z = 0 #anzahl Rundne
+    print("Spieler 1 gib deinen Namen an: ")
+    spieler1 = name()
+    print("Spieler 2 gib deinen Namen an: ")
+    spieler2 =  name()
+    print("Spieler 3 gib deinen Namen an: ")
+    spieler3 = name()
+    print("Spieler 4 gib deinen Namen an: ")
+    spieler4 =  name()
+    print("Spieler 5 gib deinen Namen an: ")
+    spieler5 = name()
+    print("Spieler 6 gib deinen Namen an: ")
+    spieler6 =  name()      
