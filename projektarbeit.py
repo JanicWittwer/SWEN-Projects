@@ -30,9 +30,8 @@ while Playing:
         elif janein == "n":
             print ("Okay, dann schreiben wir deine Punkte auf...")
             quit()
-        else: 
-            print("Bitte schreib etwas sinnvolles. (j/n")
 
+            
 ## Anzahl Spieler und Spielernamen
 ### Wir möchten nun eine Funktion einbauen, wo am Anfang eine Anzahl Spieler gewählt werden kann und auch Spielernamen eingegeben werden können.
 
