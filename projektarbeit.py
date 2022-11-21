@@ -35,4 +35,6 @@ while Playing:
 ## Anzahl Spieler und Spielernamen
 ### Wir möchten nun eine Funktion einbauen, wo am Anfang eine Anzahl Spieler gewählt werden kann und auch Spielernamen eingegeben werden können.
 
-        
+def name():
+    eingabe = input("Gebe deinen Namen an: ")
+    return eingabe        
