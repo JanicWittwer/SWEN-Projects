@@ -59,6 +59,8 @@ Verschiedene Tasks, welche wir zusammengestellt haben
 - Der Spieler kann würfeln
 - Der Spieler  kann einen Entscheidung eingeben, welche Würfel er wählen möchte
 - Der Spieler kann entscheiden, ob er weiterspielen möchte.
+- Die Anzahl spielbarer Würfel reduziert sich nach Herausnehmen von Würfeln
 - Es wird ein Punktetotal aufgrund der Würfelwahl berechnet
+- Spielerwechsel, wenn der nächste Spieler an die Reihe kommt.
 - Das Punktetotal wird dem "Spiel-Konto" des Spielers gutgeschrieben
 - Spieler erreicht 10'000 Punkte und gewinnt
