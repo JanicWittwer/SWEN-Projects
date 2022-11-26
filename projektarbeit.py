@@ -126,4 +126,102 @@ while Playing:
             print ("Okay, dann schreiben wir deine Punkte auf...")
             quit()
             
+
             
+            
+            
+#Kombinierte Version
+###(Entwurf, aber schon einiges reinkopiert)
+
+print("\n>")
+print("******** Herzlich willkommen zu Fraggles ********")
+print("\n>")
+print("Das würfligste Würfelspiel für Gross und Klein. Bei diesem Spiel gehen Freundschaften zu Bruch.")
+print("\n>")
+
+def spieler_eingabe():
+    while True:
+        anzahl_spieler = input("Bitte Anzahl Spieler eingeben: ___")    
+        if anzahl_spieler >= "2" and anzahl_spieler <= "6" :
+            return int(anzahl_spieler)
+        else:
+            print("Die Anzahl Spieler muss zwischen 2 und 6 liegen")
+
+anzahl_spieler = spieler_eingabe()
+
+
+
+class Spieler:
+    def __init__(self, name):
+        self.name = name
+        self.punktestand_temp = 0
+        self.punktestand_total = 0
+
+spieler = []
+
+for i in range(anzahl_spieler):
+    neuer_spieler = Spieler(input(f"Bitte gib den Namen von Spieler {i+1} ein: "))
+    spieler.append(neuer_spieler)
+
+print("\n>")
+print("Sehr schön - jetzt wird gewürfelt!")
+print("\n>")
+
+import random
+import time
+
+Playing = True
+
+while Playing:
+    while True:
+
+        janein = input("Möchtest du die Würfel würfeln? j/n\n>")
+        if janein == "j":
+            print("Dann lass uns beginnen!")
+            wuerfel1 = random.randint(1, 6)
+            wuerfel2 = random.randint(1, 6)
+            wuerfel3 = random.randint(1, 6)
+            wuerfel4 = random.randint(1, 6)
+            wuerfel5 = random.randint(1, 6)
+            wuerfel6 = random.randint(1, 6)
+            print("Der Würfel zeigt: " + str(wuerfel1))
+            print("Der Würfel zeigt: " + str(wuerfel2))
+            print("Der Würfel zeigt: " + str(wuerfel3))
+            print("Der Würfel zeigt: " + str(wuerfel4))
+            print("Der Würfel zeigt: " + str(wuerfel5))
+            print("Der Würfel zeigt: " + str(wuerfel6))
+
+            
+            wuerfelliste = [str(wuerfel1), str(wuerfel2), str(wuerfel3), str(wuerfel4), str(wuerfel5), str(wuerfel6)]
+            print(wuerfelliste)
+            anzahl_eins = wuerfelliste.count(str(1))
+            anzahl_zwei = wuerfelliste.count(str(2))
+            anzahl_drei = wuerfelliste.count(str(3))
+            anzahl_vier = wuerfelliste.count(str(4))
+            anzahl_fuenf = wuerfelliste.count(str(5))
+            anzahl_sechs = wuerfelliste.count(str(6))
+
+            kombinationen = [anzahl_eins, anzahl_zwei, anzahl_drei, anzahl_vier, anzahl_fuenf, anzahl_sechs]
+
+            strasse = [str(1),str(2), str(3), str(4), str(5), str(6)]
+
+            for i in wuerfelliste:
+                if str(1) in i:
+                    print("Super, du hast eine 1 gewürfelt, das gibt Punkte")
+                
+                elif str(5) in i:
+                    print("Super, du hast eine 5 gewürfelt, das gibt Punkte")
+                
+            for i in kombinationen:
+                if i >= 3:
+                    print("Super, du hast eine Dreierkombination gewürfelt, das gibt Punkte")
+
+else:
+    print("Schleifenabbruch erzwingen")
+        
+       #break wie und wann? Wie können wir nach der oberen Abfrage , bei keinem Erfolg, das Break machen und ausgeben "Das war nichts"
+        
+        #if janein == "n":
+            #print ("Okay, dann schreiben wir deine Punkte auf...")
+            #quit()
+
