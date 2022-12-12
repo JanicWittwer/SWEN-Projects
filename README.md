@@ -1,5 +1,6 @@
 # Projektarbeit SWEN (Softwareentwicklung)
 
+In der folgenden README-Datei möchten wir kurz unser Projekt vorstellen und die Umsetzung etwas kommentieren.
 
 ## Ausgangslage und Projektidee
 
@@ -9,7 +10,7 @@ Im Freundeskreis haben wir ein Würfelspiel, welches wir gerne spielen. Gerne m�
 
 Beim Spiel handelt es sich um ein klassisches Würfelspiel, welches auf Glück und auf Wahrscheinlichkeiten beruht. Es geht darum, in den richtigen Momenten weiter zu spielen oder in den richtigen Momenten die Punkte ausfzuschreiben und das Glück auf seiner Seite zu haben. Das Spiel hat verschiedene Regeln, welche wir im folgenden nun kurz beschreiben möchten.
 
-Anzahl Spieler: 1-6
+Anzahl Spieler: 2-6
 Maximale Punktzahl zum erreichen: 10000
 Anzahl Würfel: 6
 Spieldauer: unbegrenzt, bis 10000 Punkte erreicht sind
@@ -17,7 +18,7 @@ Spieldauer: unbegrenzt, bis 10000 Punkte erreicht sind
 
 ### Ablauf:
 
-Eine Runde von max. 6 Spielern muss mit dem Werfen von Würfeln möglichst schnell möglichst viele Punkte sammeln. Die Würfel geben dabei je nach Wurf und je nach Kombination mehr oder weniger Punkte.
+Eine Runde von ca. 2-6 Spielern muss mit dem Werfen von Würfeln möglichst schnell möglichst viele Punkte sammeln. Die Würfel geben dabei je nach Wurf und je nach Kombination mehr oder weniger Punkte.
 
 Der erste Spieler würfelt mit allen 6 Würfeln. Je nach Wurf gibt es verschiedene Anzahl von Punkte, zudem darf nur mit bestimmten Würfeln auch «weitergewürfelt» werden.
 
@@ -67,3 +68,11 @@ Verschiedene Tasks, welche wir zusammengestellt haben
 - Spielerwechsel, wenn der nächste Spieler an die Reihe kommt.
 - Das Punktetotal wird dem "Spiel-Konto" des Spielers gutgeschrieben
 - Spieler erreicht 10'000 Punkte und gewinnt
+
+
+## Projektumsetzung
+
+Hier möchten wir noch kurz 
+
+### Ablauf:
+
