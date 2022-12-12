@@ -22,7 +22,7 @@ Eine Runde von ca. 2-6 Spielern muss mit dem Werfen von Würfeln möglichst schn
 
 Der erste Spieler würfelt mit allen 6 Würfeln. Je nach Wurf gibt es verschiedene Anzahl von Punkte, zudem darf nur mit bestimmten Würfeln auch «weitergewürfelt» werden.
 
-Punktzahlen
+#### Punkteregeln
 
 Jede "1" = 100 Punkte
 
@@ -43,11 +43,11 @@ Dreierkombi mit "6" = 600 Punkte    (Würfelwurf enthält die Würfel 6,6,6)
 
 #### Zusätzliche Regeln
 
-((Treppe aus 3 Paaren = 750 Punkte    (Bsp. Würfel 1,1 , 2,2, und 5,5) ))
+Treppe aus 3 Paaren = 750 Punkte    (Bsp. Würfel 1,1 , 2,2, und 5,5)
 
-((Strasse             = 1500 Punkte   (Würfelwurf mit 1,2,3,4,5,6) ))
+Strasse             = 1500 Punkte   (Würfelwurf mit 1,2,3,4,5,6)
 
-((Lucky Win           = Sieg          (Würfelwurf mit 6 identischen Zahlen, bsp. 3,3,3,3,3,3)
+Lucky Win           = Sieg          (Würfelwurf mit 6 identischen Zahlen, bsp. 3,3,3,3,3,3)
 
 
 Sofern ich eine 1 oder 5 habe, kann ich die entsprechenden Würfel rausnehmen und mit den übrig bleibenden Würfeln weiterwürfeln. Bsp. Ich würfle im ersten Wurf (1, 5, 4, 6, 6, 2), daraus kann ich die 1 rausnehmen. Gibt 100 Punkte. Entweder kann ich diese Punkte nun aufschreiben oder weiterspielen mit den restlichen 5 Würfeln. Ich würfle weiter und werfe im zweiten Wurf (4, 2, 6, 1, 1). Davon nehme ich die beiden 1 raus und habe noch 3 Würfel zur Verfügung. Ich habe wieder die Entscheidung ob ich nun die 300 Punkte aufschreiben möchte oder mit den anderen 3 Würfeln noch weiterwürfeln möchte. Ich schreibe auf und habe nun 300 Punkte gesammelt und der nächste Spieler ist an der Reihe. Falls ich in der soeben genannten Situation anders entschieden hätte und weitergespielt hätte, gehe ich ein gewisses Risiko ein. Ich kann so zwar mehr Punkte sammeln, da ich nochmals würfel kann und meine Summe an Punkten damit erhöhen kann. Falls ich aber keine 1, 5 oder eine andere oben genannte Kombination würfle, verliere ich die in dieser Runde gesammelten Punkte und ich kann meine Totalpunkte nicht vergrössern. Wenn ich alle 6 Würfel geworfen habe und ich auch überall etwas schreiben konnte (dabei bei keinem Wurf keine Punkte geholt habe), kann ich mit allen 6 Würfeln wieder neu beginnen zu würfen. Dies ist wahrscheinlich die beste Situation, da ich so sofort wieder eine hohe Chance auf viele Punkte habe.
