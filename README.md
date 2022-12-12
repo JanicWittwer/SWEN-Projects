@@ -72,7 +72,21 @@ Verschiedene Tasks, welche wir zusammengestellt haben
 
 ## Projektumsetzung
 
-Hier möchten wir noch kurz 
+Hier möchten wir noch kurz aufzeigen, was mit dem vorhandenen Code effektiv umgesetzt wurde.
 
-### Ablauf:
+Der Code besteht aus verschiedenen Funktionen, welche viele der oben genannten Schritte ausführen können. Die folgenden Schritte konnten isoliert umgesetzt werden und als eigenständige Funktionen gelöst werden:
 
+- Bei Spielbeginn kann die Anzahl Mitspieler angegeben werden
+- Der Spieler kann würfeln
+- Der Spieler  kann einen Entscheidung eingeben, welche Würfel er wählen möchte
+- Der Spieler kann entscheiden, ob er weiterspielen möchte.
+- Die Anzahl spielbarer Würfel reduziert sich nach Herausnehmen von Würfeln
+- Es wird ein Punktetotal aufgrund der Würfelwahl berechnet
+
+Einige der Funktionen sind noch nicht umgesetzt.
+
+- Spielerwechsel, wenn der nächste Spieler an die Reihe kommt.
+- Das Punktetotal wird dem "Spiel-Konto" des Spielers gutgeschrieben
+- Spieler erreicht 10'000 Punkte und gewinnt
+
+Die bestehenden Funktionen wurden in eine einfache Spielsimulation umgesetzt, welche direkt im Terminal ausgeführt und mittels Eingaben und Antworten auf Fragen durchgeführt werden kann.
