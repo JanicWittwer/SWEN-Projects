@@ -63,6 +63,7 @@ Die Aufgabe erfordert die Umsetzung von verschiedenen Schritten, damit dieses W�
 Verschiedene Tasks, welche wir zusammengestellt haben
 - Bei Spielbeginn kann die Anzahl Mitspieler angegeben werden
 - Der Spieler kann würfeln
+- Es wird erkannt, ob beim Wurf Punkte erreicht wurden
 - Der Spieler  kann einen Entscheidung eingeben, welche Würfel er wählen möchte
 - Der Spieler kann entscheiden, ob er weiterspielen möchte.
 - Die Anzahl spielbarer Würfel reduziert sich nach Herausnehmen von Würfeln
@@ -78,12 +79,16 @@ Hier möchten wir noch kurz aufzeigen, was mit dem vorhandenen Code effektiv umg
 
 Der Code besteht aus verschiedenen Funktionen, welche viele der oben genannten Schritte ausführen können. Die folgenden Schritte konnten isoliert umgesetzt werden und als eigenständige Funktionen gelöst werden:
 
-- Bei Spielbeginn kann die Anzahl Mitspieler angegeben werden
-- Der Spieler kann würfeln
-- Der Spieler  kann einen Entscheidung eingeben, welche Würfel er wählen möchte
-- Der Spieler kann entscheiden, ob er weiterspielen möchte.
-- Die Anzahl spielbarer Würfel reduziert sich nach Herausnehmen von Würfeln
-- Es wird ein Punktetotal aufgrund der Würfelwahl berechnet
+- Bei Spielbeginn kann die Anzahl Mitspieler angegeben werden (Funktion Spielereingabe)
+- Der Spieler kann würfeln (Funktion Würfelwurf)
+- Es wird erkannt, ob beim Wurf Punkte erreicht wurden (Funktion Punktevalidierung)
+- Der Spieler  kann einen Entscheidung eingeben, welche Würfel er wählen möchte (Funktion Würfelauswahl)
+- Der Spieler kann entscheiden, ob er weiterspielen möchte. (Funktion Gesamt-Spiel-Simulation)
+- Die Anzahl spielbarer Würfel reduziert sich nach Herausnehmen von Würfeln (Funktion Würfelwurf)
+- Es wird ein Punktetotal aufgrund der Würfelwahl berechnet (Funktion Punkte aufschreiben)
+
+
+*****
 
 Einige der Funktionen sind noch nicht umgesetzt.
 
