@@ -12,6 +12,7 @@ class Test1(unittest.TestCase):
 class Test2(unittest.TestCase):
     def test_2(self):
         self.assertEqual(4, 4)
+        # Hier scheitern wir, eine sinnvolle Bedingung für unseren Test einzubauen
         
 if __name__ == '__main__':
     unittest.main()
